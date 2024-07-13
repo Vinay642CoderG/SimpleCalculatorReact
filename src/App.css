@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: calc(1rem - 6px);
+}
+
+.myBtn1, .myBtn2, .myBtn3, .myBtn4{
+  width: 3.8rem;
+  height: 2.5rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+  background-color: #f4eee4;
+  border-radius: 6px;
+  margin: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.myBtn2{
+  background-color: #4199f0;
+  color: #fff;
+}
+
+.myBtn3{
+  background-color: rgb(249, 48, 48);
+  color: #fff;
+}
+
+.myBtn4{
+  background-color: #35f035;
+  color: #fff;
+  height: 8rem;
+}
+
+.inputScreen{
+  background-color: #86f035;
+  border-radius: 6px;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  padding: 2px 4px;
+  caret-shape: block;
+  border: none;
+}
+.inputScreen:focus{
+  outline: none;
+  box-shadow: 0 0 1px 1px #fff;
+}
+.mainAppWrapper{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 2rem;
+  padding: 10px;
+}
+.calcWrapper{
+  margin: auto;
+  width: 19rem;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+.btnWrapper{
+  padding: 7px;
+}
+.btnWrapper .row3{
+  display: flex;
+  gap: 0;
+}
